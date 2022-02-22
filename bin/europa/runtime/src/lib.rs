@@ -154,7 +154,7 @@ parameter_types! {
 		.build_or_panic();
 	pub const Version: RuntimeVersion = VERSION;
 	pub const SS58Prefix: u8 = 42;
-	pub const TokenDecimals: u8 = 10;
+	pub const TokenDecimals: u8 = 18;
 	pub const TokenSymbol: &'static str = "DOT";
 }
 
